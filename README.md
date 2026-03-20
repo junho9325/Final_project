@@ -17,7 +17,7 @@ Mini 프로젝트에서 제작했던 Arduino 기반 RC카를 STM32 기반 시스
 - Bluetooth(UART) 기반 주행 시작 및 정지 제어
 
 ## 프로젝트 기간
-2026/02 ~ 2026/03
+2026/01 ~ 2026/03
 
 ## 프로젝트 목표
 - MCU 기반 임베디드 시스템 통합 설계
@@ -53,7 +53,7 @@ DC 모터 기반 주행 기능과 서보모터 기반 로봇암 제어 기능을
 | TIM3 | PWM            | DC 모터 속도 제어 (20KHz) |
 | TIM4 | Encoder Mode   | 왼쪽 엔코더 |
 | TIM5 | Encoder Mode   | 오른쪽 엔코더 |
-| TIM6 | Periodic Timer | 모터 제어 갱신 (10ms) |
+| TIM6 | 주기 갱신 Timer | 모터 제어 갱신 (10ms) |
 | TIM8 | PWM            | 서보모터 제어 (50Hz) |
 
 ## 주요 기능
